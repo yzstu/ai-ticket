@@ -1,0 +1,71 @@
+{
+  "selection_modes": {
+    "top_n_example": {
+      "description": "选择评分最高的前10只股票",
+      "selection_mode": "top_n",
+      "max_results": 10
+    },
+    "custom_stocks_example": {
+      "description": "分析指定的5只股票",
+      "selection_mode": "custom",
+      "custom_stocks": [
+        "000001",
+        "000002",
+        "600519",
+        "600036",
+        "000858"
+      ]
+    },
+    "blue_chips_example": {
+      "description": "分析所有蓝筹股（600000-600999）",
+      "selection_mode": "range",
+      "code_range": [
+        "600000",
+        "600999"
+      ]
+    },
+    "tech_stocks_example": {
+      "description": "分析科技股（000001-000999）",
+      "selection_mode": "range",
+      "code_range": [
+        "000001",
+        "000999"
+      ]
+    },
+    "all_stocks_example": {
+      "description": "分析所有股票",
+      "selection_mode": "all"
+    }
+  },
+  "env_variables": {
+    "description": "通过环境变量配置股票选择",
+    "examples": {
+      "top_n": {
+        "STOCK_SELECTION_MODE": "top_n",
+        "MAX_STOCKS": "5"
+      },
+      "custom": {
+        "STOCK_SELECTION_MODE": "custom",
+        "CUSTOM_STOCKS": "000001,000002,600519,600036,000858"
+      },
+      "range": {
+        "STOCK_SELECTION_MODE": "range",
+        "CODE_RANGE_START": "600000",
+        "CODE_RANGE_END": "600999"
+      },
+      "all": {
+        "STOCK_SELECTION_MODE": "all"
+      }
+    }
+  },
+  "preset_configs": {
+    "description": "预设配置名称",
+    "available_presets": [
+      "top5",
+      "top10",
+      "tech_stocks",
+      "blue_chips",
+      "custom_list"
+    ]
+  }
+}

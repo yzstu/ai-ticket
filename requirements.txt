@@ -1,0 +1,29 @@
+# Core dependencies
+langchain>=0.2.0
+python-dotenv
+
+# Data processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Data sources (uncomment when ready to use real data)
+akshare>=1.11.0
+yfinance>=0.2.0
+
+# Web framework
+fastapi>=0.128.0
+uvicorn[standard]>=0.30.0
+python-multipart>=0.0.22
+
+# 定时任务
+apscheduler>=3.10.0
+
+# 网络请求
+requests>=2.31.0
+
+# 性能分析（可选）
+psutil>=5.9.0
+
+# Development dependencies
+pytest>=7.4.0
+pytest-asyncio>=0.21.0

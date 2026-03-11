@@ -1,0 +1,30 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Database
+cache/*.db
+*.db
+
+# ML Models
+models/*.json
+models/*.joblib
+
+# Environment
+.env
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,73 @@
+{
+  "recommended_models": {
+    "primary": {
+      "name": "qwen3-coder:480b-cloud",
+      "type": "cloud",
+      "purpose": "主力分析 - 综合分析、技术分析、基本面分析",
+      "memory": "~24GB",
+      "strengths": ["中文理解", "推理能力", "长文本处理"],
+      "use_cases": ["基本面分析", "财报解读", "行业研究"],
+      "weight": 0.40,
+      "installed": true,
+      "status": "ready"
+    },
+    "fast": {
+      "name": "deepseek-r1:8b",
+      "type": "cloud",
+      "purpose": "快速分析 - 实时分析、辅助决策、快速筛选",
+      "memory": "~5GB",
+      "strengths": ["速度快", "逻辑推理", "低成本"],
+      "use_cases": ["实时监控", "快速筛选", "盘中分析"],
+      "weight": 0.25,
+      "installed": true,
+      "status": "ready"
+    },
+    "technical": {
+      "name": "llama3:8b",
+      "type": "cloud",
+      "purpose": "技术分析 - K线分析、技术指标、图表解读",
+      "memory": "~4.7GB",
+      "strengths": ["多语言", "技术分析", "图表理解"],
+      "use_cases": ["K线分析", "技术指标", "买卖点判断"],
+      "weight": 0.20,
+      "installed": true,
+      "status": "ready"
+    },
+    "sentiment": {
+      "name": "kimi-k2.5:cloud",
+      "type": "cloud",
+      "purpose": "情绪分析 - 新闻情绪、市场分析、舆情监控",
+      "memory": "~8GB",
+      "strengths": ["中文优化", "文档理解", "情绪识别"],
+      "use_cases": ["新闻分析", "市场情绪", "风险预警"],
+      "weight": 0.10,
+      "installed": true,
+      "status": "ready"
+    },
+    "quant": {
+      "name": "minimax-m2:cloud",
+      "type": "cloud",
+      "purpose": "量化分析 - 数据分析、量化策略、统计分析",
+      "memory": "~6GB",
+      "strengths": ["数据分析", "逻辑严谨", "模型构建"],
+      "use_cases": ["量化策略", "策略回测", "统计分析"],
+      "weight": 0.05,
+      "installed": true,
+      "status": "ready"
+    }
+  },
+  "installation_summary": {
+    "total_models": 5,
+    "installed_models": 5,
+    "missing_models": 0,
+    "total_memory": "~47.7GB",
+    "status": "all_ready",
+    "action_required": "none"
+  },
+  "usage_strategy": {
+    "combination_method": "weighted_average",
+    "formula": "final_score = qwen3_coder * 0.40 + deepseek_r1 * 0.25 + llama3 * 0.20 + kimi_k2.5 * 0.10 + minimax_m2 * 0.05",
+    "response_time": "2-5 seconds per model",
+    "accuracy": "85-95% (estimated)"
+  }
+}

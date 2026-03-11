@@ -1,0 +1,785 @@
+{
+  "timestamp": "2026-02-08T02:11:43.465016",
+  "config": {
+    "num_rounds": 5,
+    "stocks_per_round": 20
+  },
+  "summary": {
+    "total_stocks": 100,
+    "total_buy_recommendations": 89,
+    "total_successful_picks": 26,
+    "overall_success_rate": 29.213483146067414,
+    "avg_return": -0.4149046081291862,
+    "avg_score": 78.30564155486756,
+    "total_time_minutes": 0.0863279660542806
+  },
+  "round_results": [
+    {
+      "round": 1,
+      "total_stocks": 20,
+      "buy_recommendations": 16,
+      "successful_picks": 4,
+      "success_rate": 25.0,
+      "avg_return": -1.1019572760156866,
+      "avg_score": 77.5,
+      "recommendations": [
+        {
+          "stock_code": "192732",
+          "score": 70.0,
+          "recommendation": "强烈买入",
+          "actual_return": -0.03459157689599697,
+          "success": false,
+          "days_ahead": 8
+        },
+        {
+          "stock_code": "669659",
+          "score": 60.0,
+          "recommendation": "买入",
+          "actual_return": -0.025556793883101097,
+          "success": false,
+          "days_ahead": 7
+        },
+        {
+          "stock_code": "746230",
+          "score": 95.0,
+          "recommendation": "强烈买入",
+          "actual_return": 0.041450594599524264,
+          "success": true,
+          "days_ahead": 8
+        },
+        {
+          "stock_code": "228135",
+          "score": 95.0,
+          "recommendation": "强烈买入",
+          "actual_return": -0.0027781729649162834,
+          "success": false,
+          "days_ahead": 9
+        },
+        {
+          "stock_code": "761935",
+          "score": 100.0,
+          "recommendation": "强烈买入",
+          "actual_return": 0.006494464698868583,
+          "success": false,
+          "days_ahead": 8
+        },
+        {
+          "stock_code": "645471",
+          "score": 60.0,
+          "recommendation": "买入",
+          "actual_return": 0.014865484894783279,
+          "success": false,
+          "days_ahead": 9
+        },
+        {
+          "stock_code": "494530",
+          "score": 75.0,
+          "recommendation": "强烈买入",
+          "actual_return": 0.05128819141445525,
+          "success": true,
+          "days_ahead": 8
+        },
+        {
+          "stock_code": "563235",
+          "score": 75.0,
+          "recommendation": "强烈买入",
+          "actual_return": 0.05277999611843505,
+          "success": true,
+          "days_ahead": 9
+        },
+        {
+          "stock_code": "100310",
+          "score": 70.0,
+          "recommendation": "强烈买入",
+          "actual_return": -0.06789976665977161,
+          "success": false,
+          "days_ahead": 9
+        },
+        {
+          "stock_code": "962811",
+          "score": 70.0,
+          "recommendation": "强烈买入",
+          "actual_return": -0.04153682402756027,
+          "success": false,
+          "days_ahead": 7
+        },
+        {
+          "stock_code": "029657",
+          "score": 80.0,
+          "recommendation": "强烈买入",
+          "actual_return": -0.021459916801192514,
+          "success": false,
+          "days_ahead": 9
+        },
+        {
+          "stock_code": "016100",
+          "score": 60.0,
+          "recommendation": "买入",
+          "actual_return": -0.05954327825713125,
+          "success": false,
+          "days_ahead": 8
+        },
+        {
+          "stock_code": "541232",
+          "score": 90.0,
+          "recommendation": "强烈买入",
+          "actual_return": -0.019932411603648954,
+          "success": false,
+          "days_ahead": 9
+        },
+        {
+          "stock_code": "587235",
+          "score": 60.0,
+          "recommendation": "买入",
+          "actual_return": 0.049808755468681985,
+          "success": true,
+          "days_ahead": 7
+        },
+        {
+          "stock_code": "266529",
+          "score": 90.0,
+          "recommendation": "强烈买入",
+          "actual_return": -0.09491419122694232,
+          "success": false,
+          "days_ahead": 7
+        },
+        {
+          "stock_code": "221413",
+          "score": 90.0,
+          "recommendation": "强烈买入",
+          "actual_return": -0.02478771903699702,
+          "success": false,
+          "days_ahead": 7
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "total_stocks": 20,
+      "buy_recommendations": 17,
+      "successful_picks": 3,
+      "success_rate": 17.647058823529413,
+      "avg_return": -0.43039184481317655,
+      "avg_score": 78.82352941176471,
+      "recommendations": [
+        {
+          "stock_code": "812744",
+          "score": 95.0,
+          "recommendation": "强烈买入",
+          "actual_return": -0.02874564928703559,
+          "success": false,
+          "days_ahead": 7
+        },
+        {
+          "stock_code": "409248",
+          "score": 80.0,
+          "recommendation": "强烈买入",
+          "actual_return": -0.01627815178682006,
+          "success": false,
+          "days_ahead": 9
+        },
+        {
+          "stock_code": "529606",
+          "score": 90.0,
+          "recommendation": "强烈买入",
+          "actual_return": -0.06265697277708263,
+          "success": false,
+          "days_ahead": 7
+        },
+        {
+          "stock_code": "690113",
+          "score": 75.0,
+          "recommendation": "强烈买入",
+          "actual_return": -0.0005940866587326642,
+          "success": false,
+          "days_ahead": 9
+        },
+        {
+          "stock_code": "005752",
+          "score": 95.0,
+          "recommendation": "强烈买入",
+          "actual_return": -0.026248981145146046,
+          "success": false,
+          "days_ahead": 9
+        },
+        {
+          "stock_code": "931530",
+          "score": 60.0,
+          "recommendation": "买入",
+          "actual_return": 0.09510617294073138,
+          "success": true,
+          "days_ahead": 9
+        },
+        {
+          "stock_code": "819563",
+          "score": 100.0,
+          "recommendation": "强烈买入",
+          "actual_return": 0.02498992084308321,
+          "success": false,
+          "days_ahead": 9
+        },
+        {
+          "stock_code": "767253",
+          "score": 65.0,
+          "recommendation": "买入",
+          "actual_return": -0.01426916112994785,
+          "success": false,
+          "days_ahead": 7
+        },
+        {
+          "stock_code": "582795",
+          "score": 80.0,
+          "recommendation": "强烈买入",
+          "actual_return": 0.12238076797042007,
+          "success": true,
+          "days_ahead": 8
+        },
+        {
+          "stock_code": "737488",
+          "score": 60.0,
+          "recommendation": "买入",
+          "actual_return": 0.008125628584100632,
+          "success": false,
+          "days_ahead": 8
+        },
+        {
+          "stock_code": "873245",
+          "score": 75.0,
+          "recommendation": "强烈买入",
+          "actual_return": 0.005748167682672655,
+          "success": false,
+          "days_ahead": 9
+        },
+        {
+          "stock_code": "014485",
+          "score": 70.0,
+          "recommendation": "强烈买入",
+          "actual_return": 0.0352793280325152,
+          "success": true,
+          "days_ahead": 9
+        },
+        {
+          "stock_code": "453062",
+          "score": 90.0,
+          "recommendation": "强烈买入",
+          "actual_return": -0.07455664170097934,
+          "success": false,
+          "days_ahead": 7
+        },
+        {
+          "stock_code": "647965",
+          "score": 75.0,
+          "recommendation": "强烈买入",
+          "actual_return": -0.03165453474714162,
+          "success": false,
+          "days_ahead": 8
+        },
+        {
+          "stock_code": "005917",
+          "score": 85.0,
+          "recommendation": "强烈买入",
+          "actual_return": -0.023413997419049322,
+          "success": false,
+          "days_ahead": 7
+        },
+        {
+          "stock_code": "473633",
+          "score": 60.0,
+          "recommendation": "买入",
+          "actual_return": -0.06429239788548087,
+          "success": false,
+          "days_ahead": 9
+        },
+        {
+          "stock_code": "642228",
+          "score": 85.0,
+          "recommendation": "强烈买入",
+          "actual_return": -0.02208602513434718,
+          "success": false,
+          "days_ahead": 7
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "total_stocks": 20,
+      "buy_recommendations": 19,
+      "successful_picks": 4,
+      "success_rate": 21.052631578947366,
+      "avg_return": -0.5489285095118107,
+      "avg_score": 78.6842105263158,
+      "recommendations": [
+        {
+          "stock_code": "222664",
+          "score": 95.0,
+          "recommendation": "强烈买入",
+          "actual_return": 0.007131173139365494,
+          "success": false,
+          "days_ahead": 9
+        },
+        {
+          "stock_code": "144706",
+          "score": 100.0,
+          "recommendation": "强烈买入",
+          "actual_return": 0.014385890225551787,
+          "success": false,
+          "days_ahead": 8
+        },
+        {
+          "stock_code": "142062",
+          "score": 60.0,
+          "recommendation": "买入",
+          "actual_return": -0.02969292502116812,
+          "success": false,
+          "days_ahead": 8
+        },
+        {
+          "stock_code": "567527",
+          "score": 80.0,
+          "recommendation": "强烈买入",
+          "actual_return": 0.014551213200034724,
+          "success": false,
+          "days_ahead": 9
+        },
+        {
+          "stock_code": "078673",
+          "score": 60.0,
+          "recommendation": "买入",
+          "actual_return": -0.014781035959119582,
+          "success": false,
+          "days_ahead": 7
+        },
+        {
+          "stock_code": "161926",
+          "score": 80.0,
+          "recommendation": "强烈买入",
+          "actual_return": -0.02984192177326742,
+          "success": false,
+          "days_ahead": 9
+        },
+        {
+          "stock_code": "357887",
+          "score": 80.0,
+          "recommendation": "强烈买入",
+          "actual_return": 0.057619726239171005,
+          "success": true,
+          "days_ahead": 9
+        },
+        {
+          "stock_code": "239441",
+          "score": 60.0,
+          "recommendation": "买入",
+          "actual_return": 0.010185391429038715,
+          "success": false,
+          "days_ahead": 7
+        },
+        {
+          "stock_code": "867494",
+          "score": 65.0,
+          "recommendation": "买入",
+          "actual_return": -0.012369088468079444,
+          "success": false,
+          "days_ahead": 9
+        },
+        {
+          "stock_code": "048876",
+          "score": 80.0,
+          "recommendation": "强烈买入",
+          "actual_return": 0.08064983814250486,
+          "success": true,
+          "days_ahead": 7
+        },
+        {
+          "stock_code": "824328",
+          "score": 65.0,
+          "recommendation": "买入",
+          "actual_return": -0.05511944193947425,
+          "success": false,
+          "days_ahead": 9
+        },
+        {
+          "stock_code": "084795",
+          "score": 80.0,
+          "recommendation": "强烈买入",
+          "actual_return": -0.030432866572305425,
+          "success": false,
+          "days_ahead": 7
+        },
+        {
+          "stock_code": "429560",
+          "score": 95.0,
+          "recommendation": "强烈买入",
+          "actual_return": -0.030837370062829716,
+          "success": false,
+          "days_ahead": 7
+        },
+        {
+          "stock_code": "891793",
+          "score": 90.0,
+          "recommendation": "强烈买入",
+          "actual_return": 0.040988123786696834,
+          "success": true,
+          "days_ahead": 7
+        },
+        {
+          "stock_code": "071724",
+          "score": 80.0,
+          "recommendation": "强烈买入",
+          "actual_return": -0.014278549978797793,
+          "success": false,
+          "days_ahead": 7
+        },
+        {
+          "stock_code": "343887",
+          "score": 75.0,
+          "recommendation": "强烈买入",
+          "actual_return": 0.07550227776653577,
+          "success": true,
+          "days_ahead": 8
+        },
+        {
+          "stock_code": "576892",
+          "score": 95.0,
+          "recommendation": "强烈买入",
+          "actual_return": -0.0702246021959575,
+          "success": false,
+          "days_ahead": 9
+        },
+        {
+          "stock_code": "950503",
+          "score": 80.0,
+          "recommendation": "强烈买入",
+          "actual_return": -0.09390909778067194,
+          "success": false,
+          "days_ahead": 7
+        },
+        {
+          "stock_code": "550005",
+          "score": 75.0,
+          "recommendation": "强烈买入",
+          "actual_return": -0.023823150984472012,
+          "success": false,
+          "days_ahead": 9
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "total_stocks": 20,
+      "buy_recommendations": 19,
+      "successful_picks": 6,
+      "success_rate": 31.57894736842105,
+      "avg_return": -1.3527753739406645,
+      "avg_score": 82.63157894736842,
+      "recommendations": [
+        {
+          "stock_code": "716848",
+          "score": 100.0,
+          "recommendation": "强烈买入",
+          "actual_return": 0.07161132137516027,
+          "success": true,
+          "days_ahead": 9
+        },
+        {
+          "stock_code": "657063",
+          "score": 85.0,
+          "recommendation": "强烈买入",
+          "actual_return": 0.036470516648122224,
+          "success": true,
+          "days_ahead": 8
+        },
+        {
+          "stock_code": "438424",
+          "score": 95.0,
+          "recommendation": "强烈买入",
+          "actual_return": -0.04274312478078277,
+          "success": false,
+          "days_ahead": 8
+        },
+        {
+          "stock_code": "848194",
+          "score": 65.0,
+          "recommendation": "买入",
+          "actual_return": -0.05734422665973823,
+          "success": false,
+          "days_ahead": 9
+        },
+        {
+          "stock_code": "896061",
+          "score": 100.0,
+          "recommendation": "强烈买入",
+          "actual_return": 0.007820486325059285,
+          "success": false,
+          "days_ahead": 9
+        },
+        {
+          "stock_code": "676566",
+          "score": 100.0,
+          "recommendation": "强烈买入",
+          "actual_return": -0.04299373569975768,
+          "success": false,
+          "days_ahead": 7
+        },
+        {
+          "stock_code": "356707",
+          "score": 100.0,
+          "recommendation": "强烈买入",
+          "actual_return": -0.08759181618407115,
+          "success": false,
+          "days_ahead": 9
+        },
+        {
+          "stock_code": "573059",
+          "score": 85.0,
+          "recommendation": "强烈买入",
+          "actual_return": -0.03756912744529447,
+          "success": false,
+          "days_ahead": 9
+        },
+        {
+          "stock_code": "179260",
+          "score": 60.0,
+          "recommendation": "买入",
+          "actual_return": -0.10587261744292466,
+          "success": false,
+          "days_ahead": 8
+        },
+        {
+          "stock_code": "237855",
+          "score": 90.0,
+          "recommendation": "强烈买入",
+          "actual_return": -0.021471218609768743,
+          "success": false,
+          "days_ahead": 8
+        },
+        {
+          "stock_code": "770898",
+          "score": 95.0,
+          "recommendation": "强烈买入",
+          "actual_return": -0.027426878109058816,
+          "success": false,
+          "days_ahead": 7
+        },
+        {
+          "stock_code": "003881",
+          "score": 65.0,
+          "recommendation": "买入",
+          "actual_return": 0.08770215846215128,
+          "success": true,
+          "days_ahead": 8
+        },
+        {
+          "stock_code": "054706",
+          "score": 75.0,
+          "recommendation": "强烈买入",
+          "actual_return": 0.05738065976629405,
+          "success": true,
+          "days_ahead": 7
+        },
+        {
+          "stock_code": "017346",
+          "score": 95.0,
+          "recommendation": "强烈买入",
+          "actual_return": -0.059715670090231314,
+          "success": false,
+          "days_ahead": 9
+        },
+        {
+          "stock_code": "194213",
+          "score": 70.0,
+          "recommendation": "强烈买入",
+          "actual_return": 0.06202244450758732,
+          "success": true,
+          "days_ahead": 9
+        },
+        {
+          "stock_code": "297457",
+          "score": 65.0,
+          "recommendation": "买入",
+          "actual_return": 0.013093074789375703,
+          "success": false,
+          "days_ahead": 8
+        },
+        {
+          "stock_code": "114101",
+          "score": 60.0,
+          "recommendation": "买入",
+          "actual_return": 0.045102252785913594,
+          "success": true,
+          "days_ahead": 8
+        },
+        {
+          "stock_code": "363648",
+          "score": 85.0,
+          "recommendation": "强烈买入",
+          "actual_return": -0.06826299796122273,
+          "success": false,
+          "days_ahead": 9
+        },
+        {
+          "stock_code": "934063",
+          "score": 80.0,
+          "recommendation": "强烈买入",
+          "actual_return": -0.08723882272553943,
+          "success": false,
+          "days_ahead": 9
+        }
+      ]
+    },
+    {
+      "round": 5,
+      "total_stocks": 20,
+      "buy_recommendations": 18,
+      "successful_picks": 9,
+      "success_rate": 50.0,
+      "avg_return": 1.3595299636354075,
+      "avg_score": 73.88888888888889,
+      "recommendations": [
+        {
+          "stock_code": "055047",
+          "score": 80.0,
+          "recommendation": "强烈买入",
+          "actual_return": 0.03711125470897604,
+          "success": true,
+          "days_ahead": 8
+        },
+        {
+          "stock_code": "941111",
+          "score": 70.0,
+          "recommendation": "强烈买入",
+          "actual_return": -0.0031683102616055815,
+          "success": false,
+          "days_ahead": 8
+        },
+        {
+          "stock_code": "254652",
+          "score": 70.0,
+          "recommendation": "强烈买入",
+          "actual_return": 0.13998192255519287,
+          "success": true,
+          "days_ahead": 9
+        },
+        {
+          "stock_code": "609278",
+          "score": 70.0,
+          "recommendation": "强烈买入",
+          "actual_return": 0.030224437440464436,
+          "success": true,
+          "days_ahead": 8
+        },
+        {
+          "stock_code": "246560",
+          "score": 75.0,
+          "recommendation": "强烈买入",
+          "actual_return": -0.0758494009998826,
+          "success": false,
+          "days_ahead": 8
+        },
+        {
+          "stock_code": "253864",
+          "score": 60.0,
+          "recommendation": "买入",
+          "actual_return": -0.08115716068249584,
+          "success": false,
+          "days_ahead": 8
+        },
+        {
+          "stock_code": "170132",
+          "score": 65.0,
+          "recommendation": "买入",
+          "actual_return": 0.08741090749872124,
+          "success": true,
+          "days_ahead": 8
+        },
+        {
+          "stock_code": "485646",
+          "score": 70.0,
+          "recommendation": "强烈买入",
+          "actual_return": 0.061509012694668685,
+          "success": true,
+          "days_ahead": 7
+        },
+        {
+          "stock_code": "130356",
+          "score": 70.0,
+          "recommendation": "强烈买入",
+          "actual_return": 0.06456870176050054,
+          "success": true,
+          "days_ahead": 7
+        },
+        {
+          "stock_code": "704939",
+          "score": 100.0,
+          "recommendation": "强烈买入",
+          "actual_return": 0.04841620192917245,
+          "success": true,
+          "days_ahead": 7
+        },
+        {
+          "stock_code": "701284",
+          "score": 80.0,
+          "recommendation": "强烈买入",
+          "actual_return": 0.037807647790539266,
+          "success": true,
+          "days_ahead": 9
+        },
+        {
+          "stock_code": "442913",
+          "score": 90.0,
+          "recommendation": "强烈买入",
+          "actual_return": -0.023232495668677983,
+          "success": false,
+          "days_ahead": 9
+        },
+        {
+          "stock_code": "867651",
+          "score": 65.0,
+          "recommendation": "买入",
+          "actual_return": 0.056302542337543046,
+          "success": true,
+          "days_ahead": 8
+        },
+        {
+          "stock_code": "112379",
+          "score": 65.0,
+          "recommendation": "买入",
+          "actual_return": 0.021149255853086496,
+          "success": false,
+          "days_ahead": 8
+        },
+        {
+          "stock_code": "839190",
+          "score": 60.0,
+          "recommendation": "买入",
+          "actual_return": -0.07452654281924204,
+          "success": false,
+          "days_ahead": 9
+        },
+        {
+          "stock_code": "522368",
+          "score": 70.0,
+          "recommendation": "强烈买入",
+          "actual_return": 0.012263349972801511,
+          "success": false,
+          "days_ahead": 7
+        },
+        {
+          "stock_code": "394975",
+          "score": 95.0,
+          "recommendation": "强烈买入",
+          "actual_return": -0.016072950247965564,
+          "success": false,
+          "days_ahead": 8
+        },
+        {
+          "stock_code": "244165",
+          "score": 75.0,
+          "recommendation": "强烈买入",
+          "actual_return": -0.07802298040742367,
+          "success": false,
+          "days_ahead": 9
+        }
+      ]
+    }
+  ]
+}
